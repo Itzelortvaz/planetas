@@ -33,19 +33,19 @@ app.get('/marte', (req, res) => {
   console.log('pagina marte cargada');
 });
 app.get('/jupiter', (req, res) => {
-  res.render('pages/venus');
+  res.render('pages/jupiter');
   console.log('pagina jupiter cargada');
 });
 app.get('/saturno', (req, res) => {
-  res.render('pages/venus');
+  res.render('pages/saturno');
   console.log('pagina saturno cargada');
 });
 app.get('/urano', (req, res) => {
-  res.render('pages/venus');
+  res.render('pages/urano');
   console.log('pagina urano cargada');
 });
 app.get('/neptuno', (req, res) => {
-  res.render('pages/venus');
+  res.render('pages/neptuno');
   console.log('pagina neptuno cargada');
 });
 // Server
