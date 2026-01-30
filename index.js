@@ -28,6 +28,26 @@ app.get('/venus', (req, res) => {
   res.render('pages/venus');
   console.log('pagina venus cargada');
 });
+app.get('/marte', (req, res) => {
+  res.render('pages/marte');
+  console.log('pagina marte cargada');
+});
+app.get('/jupiter', (req, res) => {
+  res.render('pages/venus');
+  console.log('pagina jupiter cargada');
+});
+app.get('/saturno', (req, res) => {
+  res.render('pages/venus');
+  console.log('pagina saturno cargada');
+});
+app.get('/urano', (req, res) => {
+  res.render('pages/venus');
+  console.log('pagina urano cargada');
+});
+app.get('/neptuno', (req, res) => {
+  res.render('pages/venus');
+  console.log('pagina neptuno cargada');
+});
 // Server
 app.listen(4000, () => {
   console.log('listening on port 4000');
