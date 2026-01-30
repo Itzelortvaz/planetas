@@ -24,6 +24,10 @@ app.get('/tierra', (req, res) => {
   res.render('pages/tierra');
   console.log('pagina tierra cargada');
 });
+app.get('/venus', (req, res) => {
+  res.render('pages/venus');
+  console.log('pagina venus cargada');
+});
 // Server
 app.listen(4000, () => {
   console.log('listening on port 4000');
